@@ -18,8 +18,15 @@ $h4-font-size:                $font-size-base * 0.75 !default;
 $h5-font-size:                $font-size-base * 0.5 !default;
 $h6-font-size:                $font-size-base !default;
 
+$color-footer-social: #868e96 !important;
+
+
 @import "bootstrap";
 
 .row {
   background-color: #e4e5e6 !important;
+}
+
+div.sociales a {
+    color: $color-footer-social;
 }
