@@ -30,3 +30,7 @@ $color-footer-social: #868e96 !important;
 div.sociales a {
     color: $color-footer-social;
 }
+
+div.sociales a :hover {
+    opacity: .8
+}
