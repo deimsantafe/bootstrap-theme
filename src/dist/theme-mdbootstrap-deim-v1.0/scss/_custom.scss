@@ -1,0 +1,100 @@
+// _custom.scss
+// Option A: Include all of Bootstrap
+@charset "UTF-8";
+// Your variable overrides
+$body-bg: #ccc;
+$body-color: #ccc;
+$headings-color: #108A97;
+
+$verdemar:    #108A97 !default;
+$blue:        $verdemar !default;
+
+$color-footer-social: #868e96 !important;
+
+.row {
+  background-color: #e4e5e6 !important;
+}
+
+div.sociales a {
+    color: $color-footer-social;
+}
+
+div.sociales a :hover {
+    opacity: .8
+}
+
+$primary-color:        #108A97;
+
+/*!
+ * Material Design for Bootstrap 4
+ * Version: MDB FREE 4.5.0
+ *
+ *
+ * Copyright: Material Design for Bootstrap
+ * https://mdbootstrap.com/
+ *
+ * Read the license: https://mdbootstrap.com/license/
+ *
+ *
+ * Documentation: https://mdbootstrap.com/
+ *
+ * Getting started: https://mdbootstrap.com/getting-started/
+ *
+ * Tutorials: https://mdbootstrap.com/bootstrap-tutorial/
+ *
+ * Templates: https://mdbootstrap.com/templates/
+ *
+ * Support: https://mdbootstrap.com/support/
+ *
+ * Contact: office@mdbootstrap.com
+ *
+ * Atribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js , Hammer.js
+ *
+ */
+
+
+
+// Bootstrap
+@import "core/bootstrap/functions";
+@import "core/bootstrap/variables";
+
+// CORE
+@import "core/mixins";
+@import "core/colors";
+@import "core/variables";
+@import "core/global";
+@import "core/helpers";
+//@import "core/typography";
+@import "core/masks";
+@import "core/waves";
+
+// FREE
+@import "free/animations-basic";
+@import "free/animations-extended";
+@import "free/buttons";
+@import "free/cards";
+@import "free/dropdowns";
+@import "free/navbars";
+@import "free/pagination";
+@import "free/badges";
+@import "free/modals";
+@import "free/carousels";
+@import "free/forms";
+@import "free/input-group";
+@import "free/msc";
+@import "free/footers";
+@import "free/list-group";
+@import "free/tables";
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #108A97;
+}
+
+h1, .h1 {
+    font-size: 1.75rem;
+}
