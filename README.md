@@ -3,7 +3,7 @@ Repositorio para customizar un theme de bootstrap 4 utilizando el códigp fuente
 
 El tema creado esta inicialmente basado en la visual que define: www.santafe.gov.ar/assets pero con soporte completo para bootstrap 4.
 
-Intructivo:
+Instructivo:
 ==========
 
 1- Instalar nodejs (preferentemente con el gestor de versiones: https://github.com/creationix/nvm)
