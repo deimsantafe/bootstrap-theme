@@ -1,13 +1,8 @@
-// _custom.scss
-// Option A: Include all of Bootstrap
+// Your custom styles
 @charset "UTF-8";
-// Your variable overrides
+
 $body-bg: #ccc;
 $body-color: #ccc;
-$headings-color: #108A97;
-
-$verdemar:    #108A97 !default;
-$blue:        $verdemar !default;
 
 $color-footer-social: #868e96 !important;
 
@@ -16,42 +11,28 @@ $color-footer-social: #868e96 !important;
 }
 
 div.sociales a {
-    color: $color-footer-social;
+  color: $color-footer-social;
 }
 
 div.sociales a :hover {
-    opacity: .8
+  opacity: .8
 }
 
-$primary-color:        #108A97;
+$primary-color: #108A97;
+$secondary-color: #868e96;
+$link-color: #108A97;
+$link-hover-color: darken($link-color, 7%) !default;
 
-/*!
- * Material Design for Bootstrap 4
- * Version: MDB FREE 4.5.0
- *
- *
- * Copyright: Material Design for Bootstrap
- * https://mdbootstrap.com/
- *
- * Read the license: https://mdbootstrap.com/license/
- *
- *
- * Documentation: https://mdbootstrap.com/
- *
- * Getting started: https://mdbootstrap.com/getting-started/
- *
- * Tutorials: https://mdbootstrap.com/bootstrap-tutorial/
- *
- * Templates: https://mdbootstrap.com/templates/
- *
- * Support: https://mdbootstrap.com/support/
- *
- * Contact: office@mdbootstrap.com
- *
- * Atribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js , Hammer.js
- *
- */
+// Links
+a {
+  &:hover {
+    color:$link-hover-color;
+  }
+}
 
+.custom-control-input:checked ~ .custom-control-indicator {
+  background-color: $primary-color !important;
+}
 
 
 // Bootstrap
@@ -60,11 +41,15 @@ $primary-color:        #108A97;
 
 // CORE
 @import "core/mixins";
+
+
+
 @import "core/colors";
 @import "core/variables";
+
 @import "core/global";
 @import "core/helpers";
-//@import "core/typography";
+@import "core/typography";
 @import "core/masks";
 @import "core/waves";
 
@@ -72,6 +57,9 @@ $primary-color:        #108A97;
 @import "free/animations-basic";
 @import "free/animations-extended";
 @import "free/buttons";
+
+
+
 @import "free/cards";
 @import "free/dropdowns";
 @import "free/navbars";
@@ -85,16 +73,9 @@ $primary-color:        #108A97;
 @import "free/footers";
 @import "free/list-group";
 @import "free/tables";
+@import "free/depreciated";
 
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    margin-bottom: 0.5rem;
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.2;
-    color: #108A97;
-}
-
-h1, .h1 {
-    font-size: 1.75rem;
+.color-custom {
+  background: $primary-color;
 }

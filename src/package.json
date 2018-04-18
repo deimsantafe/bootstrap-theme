@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.0.0",
-    "mdbootstrap": "^4.5.0",
+    "mdbootstrap": "^4.5.1",
     "node-sass": "^4.7.2"
   }
 }
