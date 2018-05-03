@@ -13,3 +13,12 @@ Instructivo:
 3- Dentro de la carpeta scss/ se encuentra el archivo custom.scss sobre este se realiza el import de todos los componentes de  boostrap 4 y se realiza el override o extend de las variables y estilos scss (Ref: https://getbootstrap.com/docs/4.0/getting-started/theming/ ). 
 
 4- Luego utilizando node-sass custom.scss custom.css (para instalar node-sass: https://www.npmjs.com/package/node-sass ) vamos generando el theme de bootstrap customizado.-
+
+5- Distribuciones publicadas en la carpeta src/dist/theme-bootstrap-deim-v1.0/
+
+6- Lo utiliza como dependencia el https://github.com/deimsantafe/bundle-stg-theme-bundle/tree/2.x
+
+Referencias:
+
+- Frameworks utilizado: https://getbootstrap.com/docs/4.0/getting-started/introduction/
+
