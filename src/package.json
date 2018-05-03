@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-theme-deim",
+  "version": "1.0.0",
+  "description": "Temas de bootstrap customizados por DEIM - STG de la Provincia de Santa Fe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Aguilar, Fernando Pradolini",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "hoek": "^5.0.3",
+    "jquery": "^3.3.1",
+    "mdbootstrap": "^4.5.1",
+    "node-sass": "^4.9.0",
+    "popper.js": "^1.14.3"
+  }
+}
