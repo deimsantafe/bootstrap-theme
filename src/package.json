@@ -9,11 +9,11 @@
   "author": "Lucas Aguilar, Fernando Pradolini",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^4.0.0",
-    "hoek": "^5.0.3",
-    "jquery": "^1.9.1",
-    "mdbootstrap": "^4.5.1",
-    "node-sass": "^4.7.2",
-    "popper.js": "^1.14.3"
+    "bootstrap": "^4.4.1",
+    "hoek": "^5.0.4",
+    "jquery": "^1.12.4",
+    "mdbootstrap": "^4.10.0",
+    "node-sass": "^4.13.0",
+    "popper.js": "^1.16.0"
   }
 }
